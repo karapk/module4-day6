@@ -16,8 +16,8 @@ const Nav = () => {
         <h3>Pokemon Router</h3>
         <span>Welcome, {userName}</span>
         <div>
-            <button onClick={() => navigate('/home')}>Home</button> 
-            <button onClick={() => navigate('/home/wiki')}>Wiki</button> 
+            <button onClick={() => navigate('/')}>Home</button> 
+            <button onClick={() => navigate('/wiki')}>Wiki</button> 
             <button onClick={() => navigate(-1)}>Go Back</button>
             <button onClick={() => navigate(1)}>Go Forward</button>
             <button onClick={() => logout()}>Log Out</button>

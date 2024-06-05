@@ -30,7 +30,7 @@ const SignIn = () => {
     localStorage.setItem('userName', userName);
     localStorage.setItem('isSignedIn', true);
     setIsSignedIn(true);
-    navigate('/home')
+    navigate('/')
   };
   
   return (

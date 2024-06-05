@@ -13,7 +13,7 @@ import Wiki from './pages/Wiki'
 
 const router = createBrowserRouter([
   {
-    path: "/home",
+    path: "/",
     element: <Layout />,
     // errorElement: <ErrorPage />,
     children: [
