@@ -58,5 +58,20 @@ export const pokemonData = [
       id: 12,
       name: 'pikachu',
       image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
-    }
+    },
+    {
+      id: 13,
+      name: 'exeggutor',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/103.gif'
+    },
+    {
+      id: 14,
+      name: 'sandslash',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/28.gif'
+    },
+    {
+      id: 15,
+      name: 'seaking',
+      image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/119.gif'
+    },
   ];
